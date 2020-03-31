@@ -1,0 +1,23 @@
+#GXP Parameter
+#Server
+#servermode=org.gxpmaster.platform.splicing.delimiter.DelimiterServer
+servermode=org.gxpmaster.platform.splicing.lengthfieldbase.LengthFieldBaseServer
+#servermode=org.gxpmaster.platform.splicing.fixedlength.FixedLengthServer
+#servermode=org.gxpmaster.platform.splicing.linebase.LineBaseServer
+serverport=9999
+
+#LengthFieldBaseServer
+lengthfieldlength=2
+maxframelength=65535
+lengthfieldoffset=0
+lengthadjustment=0
+initialbytestostrip=2
+
+#DelimiterServer
+delimitersymbol=@
+
+#FixedLengthServer
+fixedlength=100
+
+#Client
+serverip=127.0.0.1

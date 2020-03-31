@@ -28,9 +28,13 @@ serverport=9999
 
 #### LengthFieldBaseServer
 lengthfieldlength=2
+
 maxframelength=65535
+
 lengthfieldoffset=0
+
 lengthadjustment=0
+
 initialbytestostrip=2
 
 ```java
